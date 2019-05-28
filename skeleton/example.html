@@ -23,9 +23,9 @@
     <img src="./assets/appacademylogo.png" alt="App Academy Logo">
     <nav>
       <ul>
-        <li><a href="#description">Description</a></li>
-        <li><a href="#ingredients">Ingredients</a></li>
-        <li><a href="#directions">Directions</a></li>
+        <li class="nav-ele"><a href="#description" class="nav-ele-link">Description</a></li>
+        <li class="nav-ele"><a href="#ingredients" class="nav-ele-link">Ingredients</a></li>
+        <li class="nav-ele"><a href="#directions" class="nav-ele-link">Directions</a></li>
       </ul>
     </nav>
   </header>
@@ -100,14 +100,14 @@
         <label for="name">Name</label>
         <input id="name" type="text" name="name">
 
-        <label for="rating">Rating</label>
+        <!-- <label for="rating">Rating</label> -->
         1<input type="radio" name="rating" value="1" checked>
         2<input type="radio" name="rating" value="2">
         3<input type="radio" name="rating" value="3">
         4<input type="radio" name="rating" value="4">
         5<input type="radio" name="rating" value="5">
 
-        <label for="expertise">Cooking Expertise</label>
+        <!-- <label for="expertise">Cooking Expertise</label> -->
 
         <select id="expertise" name="expertise">
           <option value="Select Cooking Expertise" disabled="true" selected="true">Select Cooking Experise</option>
@@ -121,10 +121,10 @@
           <option value="Professional Chef">Professional Chef</option>
         </select>
 
-        <label>Review
+        <label>
           <textarea id="review" name="review" cols="30" rows="10"></textarea>
         </label>
-
+        <br>
         <input type="submit" value="Submit Review">
       </form>
   </section>
